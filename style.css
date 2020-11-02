@@ -966,7 +966,10 @@ h4 {
     max-height: 40px;
     width: auto;
   }
-  .nav-invert .navbar-header {
+  .center-blockimage-resize-mode {
+    max-width: 150px;
+  }
+  .center-blockimage-resize-mode .nav-invert .navbar-header {
     float: none;
     width: 100%;
   }
