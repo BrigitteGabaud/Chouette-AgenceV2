@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-  color: black;
+  color: color: rgba(255, 255, 255, 0.7);;
 }
 
 .d-bloc button:hover {
@@ -779,6 +779,10 @@ h4 {
   color: #f3976c !important;
 }
 
+.tc-black {
+  color: #ffffff !important;
+}
+
 .btn-atomic-tangerine {
   background: #f3976c;
   color: #ffffff !important;
@@ -966,10 +970,7 @@ h4 {
     max-height: 40px;
     width: auto;
   }
-  .center-blockimage-resize-mode {
-    max-width: 150px;
-  }
-  .center-blockimage-resize-mode .nav-invert .navbar-header {
+  .nav-invert .navbar-header {
     float: none;
     width: 100%;
   }
