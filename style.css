@@ -649,11 +649,14 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
   font-family: "helvetica";
   font-weight: 400;
   color: #575757 !important;
+}
+
+a {
+  color: #000000;
 }
 
 .container {
@@ -743,6 +746,9 @@ h4 {
   color: #ffffff !important;
 }
 
+.black {
+  color: #000000 !important;
+}
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -757,7 +763,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 40px 40px 40px 40px;
 }
 
@@ -783,12 +789,12 @@ h4 {
 }
 
 .tc-black {
-  color: #ffffff !important;
+  color: #f3976c !important;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
