@@ -89,7 +89,13 @@ a:hover {
   left: 0;
   right: 0;
 }
-
+.col-sm-12 .text {
+    font-size : 22px;
+}
+#citation {
+    font-style : italic;
+    font-size : 22px;
+}
 .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
@@ -715,8 +721,9 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
   color: #333333 !important;
 }
 
@@ -731,10 +738,10 @@ h1 {
 }
 
 h4 {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   color: #333333 !important;
+  
 }
 
 .icons {
@@ -786,6 +793,7 @@ h4 {
 
 .tc-white {
   color: #f3976c !important;
+  font-size: 18px;
 }
 
 .tc-black {
