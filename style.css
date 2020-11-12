@@ -237,7 +237,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-  color: rgba(0, 0, 0, 0.6);
+  color: #000000;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -658,7 +658,7 @@ label,
 .btn {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #000000 !important;
 }
 
 a {
@@ -843,6 +843,27 @@ h4 {
   background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
+#contactdetails {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content:space-around;
+  height: auto;
+}
+
+#contactdetails p {
+  display: flex;
+  flex-direction:column;
+  background:#f3976c;
+  width: 350px;
+  height: auto;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 80px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -922,6 +943,13 @@ h4 {
   #disqus_thread {
     padding-left: 10px !important;
     padding-right: 10px !important;
+  }
+  #contactdetails p{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 15px;
   }
   .b-parallax {
     background-attachment: scroll;
